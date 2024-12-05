@@ -1,0 +1,30 @@
+# Ignore build artifacts
+*.o
+*.a
+*.so
+*.dll
+
+# Ignore the executable files
+*.exe
+*.out
+*.app
+
+# Ignore system files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore log files
+*.log
+
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore dependency directories for certain languages
+vendor/
+
+minitools.c
